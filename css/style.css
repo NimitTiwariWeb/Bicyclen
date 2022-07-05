@@ -132,15 +132,13 @@ a {
 }
 
 .card {
+  padding: 1px;
   background: #fff;
   color: #333;
+  box-shadow: 2px 2px 3px grey;
 }
 
-.card-container {
-  max-width: 500px;
-  margin : auto;
-  padding: 20px;
-}
+
 
 .card-content{
   background: #d0d1d3;
@@ -185,6 +183,7 @@ a {
   max-width: 400px;
   margin :30px auto;
   padding: 20px;
+  box-shadow: 5px 5px 10px grey;
 }
 
 .contact-form { 
@@ -209,7 +208,19 @@ a {
 }
 
 .contact-form form {
+  background: var(--primary-color);
   margin-top: 9px;
+  box-shadow: 1px 1px 3px;
+}
+
+.contact-form form .btn {
+  background: #333;
+  color: #fff;
+}
+
+.contact-form form .btn:hover {
+  background: #fff;
+  color: #333; 
 }
 
 /* About Us */
